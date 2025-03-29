@@ -10,7 +10,7 @@ function Navbar() {
             <div className="cursor-pointer">
                 <Aurora
                     text={"WebWorks Studio"}
-                    size={"3xl"}
+                    size={"2xl"}
                     intensity={"bold"}
                 />
             </div>
