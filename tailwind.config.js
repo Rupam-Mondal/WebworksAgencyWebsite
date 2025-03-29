@@ -7,6 +7,12 @@ export default {
   ],
   theme: {
   	extend: {
+  		fontFamily: {
+  			inter: [
+  				'InterVariable',
+  				'sans-serif'
+  			]
+  		},
   		borderRadius: {
   			lg: 'var(--radius)',
   			md: 'calc(var(--radius) - 2px)',
@@ -55,7 +61,8 @@ export default {
   			}
   		},
   		animation: {
-  			'shiny-text': 'shiny-text 8s infinite'
+  			'shiny-text': 'shiny-text 8s infinite',
+  			aurora: 'aurora 8s ease-in-out infinite alternate'
   		},
   		keyframes: {
   			'shiny-text': {
@@ -64,6 +71,28 @@ export default {
   				},
   				'30%, 60%': {
   					'background-position': 'calc(100% + var(--shiny-width)) 0'
+  				}
+  			},
+  			aurora: {
+  				'0%': {
+  					backgroundPosition: '0% 50%',
+  					transform: 'rotate(-5deg) scale(0.9)'
+  				},
+  				'25%': {
+  					backgroundPosition: '50% 100%',
+  					transform: 'rotate(5deg) scale(1.1)'
+  				},
+  				'50%': {
+  					backgroundPosition: '100% 50%',
+  					transform: 'rotate(-3deg) scale(0.95)'
+  				},
+  				'75%': {
+  					backgroundPosition: '50% 0%',
+  					transform: 'rotate(3deg) scale(1.05)'
+  				},
+  				'100%': {
+  					backgroundPosition: '0% 50%',
+  					transform: 'rotate(-5deg) scale(0.9)'
   				}
   			}
   		}

@@ -1,4 +1,5 @@
 import { useState } from "react";
+import Aurora from "../AuroraText/AuroraText";
 
 function Navbar() {
     const [isOpen, setIsOpen] = useState(false);
@@ -6,7 +7,13 @@ function Navbar() {
     return (
         <header className="w-full py-3 flex items-center justify-between px-6 sticky top-0 z-50 bg-background/60 backdrop-blur">
             {/* Logo Section */}
-            <div className="font-bold text-2xl cursor-pointer">WebWorks Studio</div>
+            <div className="cursor-pointer">
+                <Aurora
+                    text={"WebWorks Studio"}
+                    size={"3xl"}
+                    intensity={"bold"}
+                />
+            </div>
 
             {/* Hamburger Menu */}
             <div className="md:hidden">

@@ -9,7 +9,7 @@ function Herosection() {
             </div>
 
             {/* Hero Content */}
-            <div className="flex w-full max-w-2xl flex-col space-y-4 text-center">
+            <div className="flex font-inter w-full max-w-2xl flex-col space-y-4 text-center">
                 <h1 className="text-3xl font-medium leading-tight text-foreground sm:text-4xl md:text-5xl">
                     <span className="inline-block px-1 md:px-2 font-semibold">Automate</span>
                     <span className="inline-block px-1 md:px-2 font-semibold">your</span>
