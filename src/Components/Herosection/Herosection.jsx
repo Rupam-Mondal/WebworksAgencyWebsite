@@ -22,7 +22,7 @@ function Herosection() {
                 </p>
                 <div className="flex justify-center">
                     <a href="/signup" className="inline-flex items-center gap-2 justify-center bg-[#FF1C46] 
-                        text-white rounded-md px-4 py-2 text-sm sm:text-base font-medium transition-colors">
+                        text-white rounded-md px-4 py-2 text-sm sm:text-base font-semibold transition-colors">
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                             viewBox="0 0 24 24" fill="none" stroke="currentColor"
                             strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"
