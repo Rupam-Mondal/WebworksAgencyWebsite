@@ -1,6 +1,6 @@
 import webservice from '../../assets/webservice.jpg';
 import uiux from '../../assets/uiux.jpg';
-import officerlandingpage from '../../assets/officerlandingpage.jpg'
+import officerlandingpage from '../../assets/Officerlandingpage.jpg'
 
 function Service() {
     return (
