@@ -1,5 +1,6 @@
 import { useState } from "react";
 import Aurora from "../AuroraText/AuroraText";
+import Logo from "../../assets/Logo.svg";
 
 function Navbar() {
     const [isOpen, setIsOpen] = useState(false);
@@ -8,11 +9,7 @@ function Navbar() {
         <header className="w-full py-3 flex items-center justify-between px-6 sticky top-0 z-50 bg-background/60 backdrop-blur">
             {/* Logo Section */}
             <div className="cursor-pointer">
-                <Aurora
-                    text={"WebWorks Studio"}
-                    size={"2xl"}
-                    intensity={"bold"}
-                />
+                <img src={Logo} alt="Logo" className="w-16 h-16" />
             </div>
 
             {/* Hamburger Menu */}
