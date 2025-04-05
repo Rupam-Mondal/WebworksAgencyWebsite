@@ -2,14 +2,14 @@ import { AnimatedShinyTextDemo } from "../ShinyText/ShinyText";
 
 function Herosection() {
     return (
-        <div className="h-screen w-full flex flex-col justify-center items-center gap-6 px-4 sm:px-6 md:px-8">
+        <div className="h-screen w-full flex flex-col justify-center items-center relative gap-6 px-4 sm:px-6 md:px-8">
             {/* Shiny text section */}
             <div className="w-full text-center">
                 <AnimatedShinyTextDemo />
             </div>
 
             {/* Hero Content */}
-            <div className="flex font-inter w-full max-w-2xl flex-col space-y-4 text-center">
+            <div className="flex mb-20 font-inter w-full max-w-2xl flex-col space-y-4 text-center">
                 <h1 className="text-3xl font-medium leading-tight text-foreground sm:text-4xl md:text-5xl">
                     <span className="inline-block px-1 md:px-2 font-semibold">Automate</span>
                     
@@ -35,6 +35,8 @@ function Herosection() {
                     </a>
                 </div>
             </div>
+
+
         </div>
     );
 }
